@@ -1,20 +1,19 @@
 <template>
-  <v-app class="ma-0 pt-0">
-    <AppHeader/>
-    <TopColumns/>
-    <TopBoxList/>
-  </v-app>
+  <div id="app">
+    <v-app>
+      <TopColumns/>
+      <TopBoxList/>
+    </v-app>
+  </div>
 </template>
 
 <script>
-import AppHeader from './components/AppHeader'
 import TopColumns from './components/TopColumns'
 import TopBoxList from './components/TopBoxList'
 
 export default {
   name: 'App',
   components: {
-    AppHeader,
     TopColumns,
     TopBoxList
   }
