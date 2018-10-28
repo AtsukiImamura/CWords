@@ -1,5 +1,5 @@
 <template>
-    <v-layout wrap justify-center id="top_columns">
+    <v-layout wrap justify-center>
         <v-flex d-flex xs12 sm12 md10 class="pa-2">
             <v-card color="#ffffff" d-flex class="pa-0">
                 <v-layout row wrap justify-center>
