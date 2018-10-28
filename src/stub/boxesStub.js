@@ -39,7 +39,7 @@ export default{
       ]
     },
     {
-      boxId: '00001',
+      boxId: '00002',
       title: '初級BOX',
       discription: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
       color: '#d8ffe6',
@@ -77,7 +77,7 @@ export default{
       ]
     },
     {
-      boxId: '00002',
+      boxId: '00003',
       title: '中級BOX',
       discription: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
       color: '#a0c0ff',

@@ -12,7 +12,7 @@
                 <v-layout row wrap justify-center class="ml-2 mr-2">
                     <v-flex child-flex xs12 sm7 md7 class="pa-0">
                         <v-card color="#fffafa" height="100%" class="pa-0">
-                            <v-card-title primary-title class="text-md-left pa-2">
+                            <v-card-title primary-title class="text-md-left text-sm-left text-xs-left pa-2">
                                 <div class="column_title">
                                     <h2>{{ topColumn.title }}</h2>
                                 </div>
@@ -22,7 +22,7 @@
                             </v-card-title>
                         </v-card>
                     </v-flex>
-                    <v-flex d-flex xs0 sm5 md5>
+                    <v-flex d-flex xs0 sm5 md5 class="hidden-sm-and-down">
                         <v-layout row wrap>
                             <v-flex d-flex>
                                 <v-layout row wrap>
