@@ -1,20 +1,22 @@
 export default{
   data: [
     {
-      title: 'TopColumn Title',
-      article: 'One day a rabbit was boasting about how fast he could run. He was laughing at the turtle for being so slow. Much to the rabbit’s surprise, the turtle challenged him to a race. The rabbit thought this was a good joke and accepted the challenge. The fox was to be the umpire of the race. As the race began, the rabbit raced way ahead of the turtle, just like everyone thought.'
+      title: '新常态下的两会 超常态的期待',
+      article: '新常态下的GDP增速如何设定？“一带一路”等国家战略怎么“取得良好开局”？“大众创业、万众创新”怎么实现井喷式奔涌？如何驱散雾霾，建设“美丽乡村”？“上不封顶、不设禁区”的“打虎拍蝇”将剑指何方？<br/>从3号开始，全国又进入了一年一度的“两会时间”。虽说是年年岁岁“会”相似，但是岁岁年年“议”却是不同的。尤其是在“新常态”下，人们对今年的两会更是多了份期盼与憧憬。要准确把握好十八大以来的中国，不仅要重新认识中国的经济，也要重新认识中国的政治，更要重新认识中国的战略思维。今年的两会站在了一个新的历史起点和思维环境中。认清新常态，是代表委员积极主动履好职、尽好责的前提。如果还是以曾经习以为常的“旧常态”、“旧思维”来分析当下的中国，只能与真实的中国越行越远。新常态下参政议政需要新的思维、新的举措、新的应对。'
     },
     {
-      title: 'SecondColumn Title',
-      article: 'The rabbit got to the halfway point and could not see the turtle anywhere. '
+      title: '贪官被抓众生相 早知如此何必贪',
+      article: '官员只要涉及贪腐，恐怕没有不害怕的。取不义之财，岂能心安理得？行苟且之事，岂能心底坦荡？从医学研究上也可看出，贪官涉及贪腐后，往往焦虑甚至恐惧。这就是人们所说的“人越腐败，死得越快”。 '
     },
     {
-      title: 'ThirdColumn Title',
-      article: 'He was hot and tired and decided to stop and take a short nap. Even if the turtle passed him, he would be able to race to the finish line ahead of him. All this time the turtle kept walking step by step by step. He never quit no matter how hot or tired he got. He just kept going.'
-    },
-    {
-      title: 'FourthColumn Title',
-      article: 'However, the rabbit slept longer than he had thought and woke up. He could not see the turtle anywhere! He went at full-speed to the finish line but found the turtle there waiting for him.'
+      title: '超越国界的棋艺使者吴清源',
+      article: '这一切都源于70年前一个中国孩子前往日本学习围棋，他已经成为一座文化桥梁，围棋也从日本一方独大，到中日韩三国演义，甚至到回归中国的一个过程。如果没有这个走出去的举动，或许围棋的发展不会这么顺利与迅速。'
     }
+    /*
+    ,{
+      title: '美国如何处理冤假错案',
+      article: '冤案已发生，批评和反思固然重要，然而最为紧迫的任务却是洗冤，尤其是对那些依然在押的被告人而言。但不管在哪个国家，要让司法机关自己纠正错误，特别是可能牵涉到个人责任和巨额赔偿的严重错误，往往万分艰难。'
+    }
+    */
   ]
 }

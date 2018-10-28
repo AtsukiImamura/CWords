@@ -1,7 +1,7 @@
 <template>
   <v-app class="ma-0 pt-0">
     <AppHeader/>
-    <TopColumns/>
+    <TopColumns id="top_columns"/>
     <TopBoxList/>
   </v-app>
 </template>
@@ -26,8 +26,10 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#top_columns{
+  margin-top: 10vh;
 }
 </style>
