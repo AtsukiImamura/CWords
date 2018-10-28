@@ -2,20 +2,29 @@
     <v-layout row wrap justify-center class="mb-5">
         <v-flex d-flex xs12 sm4 md3 class="pl-1 pr-1">
             <v-card color="#3090a0"  class="pa-0" id="boxes_title_container">
-                <v-toolbar color="white" flat class="pl-0">
+                <v-toolbar color="white" flat class="pl-0 pr-0">
                     <v-toolbar-title class="black--text">単語BOX</v-toolbar-title>
+                    <v-spacer></v-spacer>
+                    <v-tooltip bottom>
+                        <v-icon
+                            slot="activator"
+                            color="#888888"
+                            dark
+                            large
+                        >forward</v-icon>
+                        <span>もっと見る</span>
+                    </v-tooltip>
                 </v-toolbar>
                 <!--<div id="boxes_discription">-->
                 <v-card-text id="boxes_discription">
                     <span class="article_span">
-                        <span class="srg6">　単語BOX</span>
-                        は、気になる単語をまとめて覚えるのに役立ちます。
-                    </span class="article_span">
-                    <span>
-                    　まずは気になるBOXをのぞいてみましょう！ デフォルトのBOX以外にも他のユーザーがつくったBOXも検索してみましょう。
+                        {{ boxes_discription[0] }}
                     </span>
                     <span class="article_span">
-                    　自分でBOXを作ることもできます。テーマを決め、それに合う単語を詰め込めば自分だけの単語BOXの出来上がりです！
+                        {{ boxes_discription[1] }}
+                    </span>
+                    <span class="article_span">
+                        {{ boxes_discription[2] }}
                     </span>
                 </v-card-text>
                 <!--</div>-->
@@ -47,7 +56,12 @@ export default{
   },
   data () {
     return {
-      boxlist: boxes.data
+      boxlist: boxes.data,
+      boxes_discription: [
+        '　単語BOXは、気になる単語をまとめて覚えるのに役立ちます。',
+        '　まずは気になるBOXをのぞいてみましょう！ デフォルトのBOX以外にも他のユーザーがつくったBOXも検索してみましょう。',
+        '　自分でBOXを作ることもできます。テーマを決め、それに合う単語を詰め込めば自分だけの単語BOXの出来上がりです！'
+      ]
     }
   },
   computed: {
@@ -58,15 +72,15 @@ export default{
       })
     },
     maxBoxNum: function () {
-        //スクリーンサイズによって出すboxの数を変える
-        switch(this.$vuetify.breakpoint.name){
-            case 'xs':
-                return 1;
-            case 'sm':
-                return 2
-            default:
-                return 3;
-        }
+      // スクリーンサイズによって出すboxの数を変える
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs':
+          return 1
+        case 'sm':
+          return 2
+        default:
+          return 3
+      }
     }
   }
 }

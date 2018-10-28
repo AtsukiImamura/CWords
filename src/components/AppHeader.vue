@@ -1,7 +1,7 @@
 <template>
     <v-layout row wrap>
         <v-flex d-flex xs12 sm12 md12 class="pa-0 ma-0">
-            <v-toolbar 
+            <v-toolbar
                 fixed
                 color="#003080"
                 dark

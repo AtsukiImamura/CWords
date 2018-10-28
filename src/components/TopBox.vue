@@ -18,7 +18,6 @@
                   <v-list-tile-sub-title> {{ word.discription }}}</v-list-tile-sub-title>
                 </v-list-tile-content>
               </v-list-tile>
-            </v-list-tile>
             <v-divider
                 v-if="index + 1 < box.words.length"
                 :key="index"

@@ -41,13 +41,14 @@
                     </v-flex>
                 </v-layout>
                 <v-layout row wrap justify-center>
-                    <v-flex child-flex xs12 sm7 md12 class="text-md-left ml-2 mr-2">
-                        <v-toolbar color="white" flat>
+                    <v-flex child-flex xs12 sm7 md12 class="text-md-left ml-2 mr-0">
+                        <v-toolbar color="white" flat class="pa-0 ma-0">
                             <v-toolbar-title class="black--text"></v-toolbar-title>
                             <v-spacer></v-spacer>
-                            <v-toolbar-items class="hidden-sm-and-down">
-                                <v-btn flat>もっと読む</v-btn>
-                            </v-toolbar-items>
+                            <v-btn dark color="indigo" class="ma-0">
+                                もっと読む
+                                <v-icon right dark class="ma-0">forward</v-icon>
+                            </v-btn>
                         </v-toolbar>
                     </v-flex>
                 </v-layout>
@@ -99,5 +100,12 @@ a {
 
 .hhs{
     background-color: #ffffff;
+}
+
+.column_title{
+    color: #101080;
+    width: 100%;
+    border-bottom: 2px solid #e0e0ff;
+    margin-bottom: 2.5vh;
 }
 </style>
