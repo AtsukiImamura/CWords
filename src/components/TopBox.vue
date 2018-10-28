@@ -4,7 +4,7 @@
       <v-card>
         <v-toolbar :color=box.color>
           <v-toolbar-side-icon></v-toolbar-side-icon>
-          <v-toolbar-title>{{ box.title }}</v-toolbar-title>
+          <v-toolbar-title class="ml-0">{{ box.title }}</v-toolbar-title>
         </v-toolbar>
         <v-list>
           <template v-for="(word, index) in box.words">
